@@ -1,0 +1,132 @@
+@-webkit-keyframes vibe {
+  0%,
+  100% {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+  }
+  25% {
+    -webkit-transform: translateY(-4px);
+    transform: translateY(-4px);
+  }
+  50% {
+    -webkit-transform: translateY(4px);
+    transform: translateY(4px);
+  }
+  75% {
+    -webkit-transform: translateY(-4px);
+    transform: translateY(-4px);
+  }
+}
+
+@keyframes vibe {
+  0%,
+  100% {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+  }
+  25% {
+    -webkit-transform: translateY(-4px);
+    transform: translateY(-4px);
+  }
+  50% {
+    -webkit-transform: translateY(4px);
+    transform: translateY(4px);
+  }
+  75% {
+    -webkit-transform: translateY(-4px);
+    transform: translateY(-4px);
+  }
+}
+
+@-webkit-keyframes shine {
+  100% {
+    left: 125%;
+  }
+}
+
+@keyframes shine {
+  100% {
+    left: 125%;
+  }
+}
+
+body {
+  position: relative;
+  font-family: ff;
+  font-weight: normal;
+}
+
+body::-webkit-scrollbar {
+  background-color: #fff;
+  width: 7px;
+  height: 0px;
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: #e3174f;
+}
+
+html {
+  scrollbar-width: thin;
+  scrollbar-color: #e3174f #fff;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+input[type=number] {
+  -moz-appearance: textfield;
+}
+
+.overflow {
+  overflow: hidden !important;
+}
+
+* {
+  outline: none !important;
+}
+
+@media (min-width: 1200px) {
+  .container {
+    max-width: 1170px;
+  }
+}
+
+@font-face {
+  font-family: 'ff';
+  src: url("../fonts/FF/FFShamelFamily-SansOneBook.woff2") format("woff2"), url("../fonts/FF/FFShamelFamily-SansOneBook.woff") format("woff"), url("../fonts/FF/FFShamelFamily-SansOneBook.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'ff';
+  src: url("../fonts/FF/FFShamelFamily-SansOneBold.woff2") format("woff2"), url("../fonts/FF/FFShamelFamily-SansOneBold.woff") format("woff"), url("../fonts/FF/FFShamelFamily-SansOneBold.ttf") format("truetype");
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'myriad';
+  src: url("../fonts/myriad/MyriadPro-CondIt.woff2") format("woff2"), url("../fonts/myriad/MyriadPro-CondIt.woff") format("woff"), url("../fonts/myriad/MyriadPro-CondIt.ttf") format("truetype");
+  font-weight: normal;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'myriad';
+  src: url("../fonts/myriad/MyriadPro-SemiboldIt.woff2") format("woff2"), url("../fonts/myriad/MyriadPro-SemiboldIt.woff") format("woff"), url("../fonts/myriad/MyriadPro-SemiboldIt.ttf") format("truetype");
+  font-weight: 600;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'myriad';
+  src: url("../fonts/myriad/MyriadPro-Bold.woff2") format("woff2"), url("../fonts/myriad/MyriadPro-Bold.woff") format("woff"), url("../fonts/myriad/MyriadPro-Bold.ttf") format("truetype");
+  font-weight: bold;
+  font-style: normal;
+}
+/*# sourceMappingURL=main.css.map */
