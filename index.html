@@ -11,16 +11,802 @@
   <link rel="stylesheet" href="css/fontawesome.min.css" />
   <link rel="stylesheet" href="css/swiper.min.css" />
   <link rel="stylesheet" href="css/animate.css" />
+  <link rel="stylesheet" href="css/jquery.fancybox.min.css" />
   <link rel="stylesheet" href="css/main.css" />
 </head>
 
 <body>
-  
+  <!-- Start Header -->
+  <header>
+    <div class="container">
+      <div class="header">
+        <div class="right-div">
+          <a href="index.html" class="logo">
+            <img src="images/logo.png" class="img-fluid">
+          </a>
+          <div class="header-socials">
+            <a href="#!" class="header-social">
+              <i class="fab fa-facebook-f"></i>
+            </a>
+            <a href="#!" class="header-social">
+              <i class="fab fa-instagram"></i>
+            </a>
+            <a href="#!" class="header-social">
+              <i class="fab fa-twitter"></i>
+            </a>
+          </div>
+        </div>
+        <nav class="left-div">
+          <ul class="nav-list list-unstyled">
+            <li>
+              <a href="index.html">
+                الرئيسية
+              </a>
+            </li>
+            <li>
+              <a href="about.html">
+                من نحن
+              </a>
+            </li>
+            <li>
+              <a href="services.html">
+                الخدمات
+              </a>
+            </li>
+            <li>
+              <a href="portfolio.html">
+                أعمالنا
+              </a>
+            </li>
+            <li>
+              <a href="#!">
+                باقات الأسعار
+              </a>
+            </li>
+            <li>
+              <a href="contact.html">
+                إتصل بنا
+              </a>
+            </li>
+          </ul>
+        </nav>
+        <a role="button" class="menu-btn">
+          <i class="fas fa-bars"></i>
+        </a>
+      </div>
+    </div>
+  </header>
+  <!-- End Header -->
+
+  <!-- Start Main -->
+  <main>
+    <div class="container">
+      <div class="main-img-cont">
+        <img src="images/main/main.png" class="main-img img-fluid wow zoomIn">
+        <img src="images/main/triangle.png" class="main-traingle img-fluid wow zoomIn">
+      </div>
+    </div>
+    <img src="images/main/shape.png" class="main-shape">
+  </main>
+  <!-- End Main -->
+
+  <!-- Start About -->
+  <section class="about-section">
+    <div class="section-head">
+      <span class="wow fadeInDown">من نحن</span>
+      <h3 class="wow fadeInDown" data-wow-delay="0.2s">
+        نجــــــاحـــــــك
+        <br>
+        هـــــو هدفنــــــــا
+      </h3>
+    </div>
+    <div class="container">
+      <div class="about-blocks">
+        <div class="about-block wow zoomIn">
+          <div class="about-icon">
+            <i class="far fa-comment-dots"></i>
+          </div>
+          <h4 class="about-title">
+            دعم مجاني
+          </h4>
+          <p class="about-desc">
+            نص تجريبي نص تجريبي
+            نص تجريبي نص تجريبي
+            نص تجريبي نص تجريبي
+          </p>
+        </div>
+        <div class="about-block wow zoomIn" data-wow-delay="0.2s">
+          <div class="about-icon">
+            <i class="far fa-sun"></i>
+          </div>
+          <h4 class="about-title">
+            حلول ذكية
+          </h4>
+          <p class="about-desc">
+            نص تجريبي نص تجريبي
+            نص تجريبي نص تجريبي
+            نص تجريبي نص تجريبي
+          </p>
+        </div>
+        <div class="about-block wow zoomIn" data-wow-delay="0.4s">
+          <div class="about-icon">
+            <i class="far fa-lightbulb"></i>
+          </div>
+          <h4 class="about-title">
+            أفكار مبتكرة
+          </h4>
+          <p class="about-desc">
+            نص تجريبي نص تجريبي
+            نص تجريبي نص تجريبي
+            نص تجريبي نص تجريبي
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- End About -->
+
+  <!-- Start banner -->
+  <section class="banner-section">
+    <img src="images/banner.jpg" class="banner-bg wow fadeIn">
+    <div class="banner-text">
+      <h2 class="banner-title wow fadeInDown" data-wow-delay="0.2s">
+        معا لنجاح أعمالك
+        وزيادة مبيعاتك
+      </h2>
+      <p class="banner-desc wow fadeInDown" data-wow-delay="0.4s">
+        نص تجريبي نص تجريبي نص تجريبي
+        نص تجريبي نص تجريبي نص تجريبي
+        نص تجريبي نص تجريبي نص تجريبي
+      </p>
+      <a href="#!" class="banner-anchor wow fadeInDown" data-wow-delay="0.6s">
+        إشترك معنا
+      </a>
+    </div>
+    <div class="banner-link">
+      <a data-fancybox="video-img" href="https://www.youtube.com/watch?v=S2rx22N9mbM">
+        <i class="fas fa-play"></i>
+      </a>
+    </div>
+  </section>
+  <!-- End banner -->
+
+  <!-- Start services -->
+  <section class="services-section">
+    <div class="section-head">
+      <span class="wow fadeInDown">خدماتنا</span>
+      <h3 class="wow fadeInDown" data-wow-delay="0.2s">
+        إختر ماتريد
+        <br>
+        من خدماتنا المتعددة
+      </h3>
+    </div>
+    <div class="container">
+      <div class="services-blocks">
+        <a href="#!" class="services-block wow zoomIn">
+          <div class="services-icon">
+            <i class="fab fa-searchengin"></i>
+          </div>
+          <h4 class="services-title">
+            دعم كتابة SEO
+          </h4>
+          <p class="services-desc">
+            نص تجريبي نص تجريبي نص تجريبي نص تجريبي نص تجريبي نص تجريبي نص تجريبي نص تجريبي نص تجريبي نص تجريبي نص
+            تجريبي نص تجريبي نص تجريبي نص تجريبي
+          </p>
+        </a>
+        <a href="#!" class="services-block wow zoomIn" data-wow-delay="0.2s">
+          <div class="services-icon">
+            <i class="fas fa-bezier-curve"></i>
+          </div>
+          <h4 class="services-title">
+            تصميم الهوية
+          </h4>
+          <p class="services-desc">
+            نص تجريبي نص تجريبي نص تجريبي نص تجريبي نص تجريبي نص تجريبي نص تجريبي نص تجريبي نص تجريبي نص تجريبي نص
+            تجريبي نص تجريبي نص تجريبي نص تجريبي
+          </p>
+        </a>
+        <a href="#!" class="services-block wow zoomIn" data-wow-delay="0.4s">
+          <div class="services-icon">
+            <i class="fab fa-wordpress-simple"></i>
+          </div>
+          <h4 class="services-title">
+            دعم تصميم المواقع
+          </h4>
+          <p class="services-desc">
+            نص تجريبي نص تجريبي نص تجريبي نص تجريبي نص تجريبي نص تجريبي نص تجريبي نص تجريبي نص تجريبي نص تجريبي نص
+            تجريبي نص تجريبي نص تجريبي نص تجريبي
+          </p>
+        </a>
+        <a href="#!" class="services-block wow zoomIn" data-wow-delay="0.4s">
+          <div class="services-icon">
+            <i class="far fa-lightbulb"></i>
+          </div>
+          <h4 class="services-title">
+            دعم خطط تسويقية
+          </h4>
+          <p class="services-desc">
+            نص تجريبي نص تجريبي نص تجريبي نص تجريبي نص تجريبي نص تجريبي نص تجريبي نص تجريبي نص تجريبي نص تجريبي نص
+            تجريبي نص تجريبي نص تجريبي نص تجريبي
+          </p>
+        </a>
+        <a href="#!" class="services-block wow zoomIn" data-wow-delay="0.2s">
+          <div class="services-icon">
+            <i class="fas fa-list-ul"></i>
+          </div>
+          <h4 class="services-title">
+            كتابة المحتوى
+          </h4>
+          <p class="services-desc">
+            نص تجريبي نص تجريبي نص تجريبي نص تجريبي نص تجريبي نص تجريبي نص تجريبي نص تجريبي نص تجريبي نص تجريبي نص
+            تجريبي نص تجريبي نص تجريبي نص تجريبي
+          </p>
+        </a>
+        <a href="#!" class="services-block wow zoomIn">
+          <div class="services-icon">
+            <i class="fas fa-icons"></i>
+          </div>
+          <h4 class="services-title">
+            تسويق إلكتروني وسوشيال ميديا
+          </h4>
+          <p class="services-desc">
+            نص تجريبي نص تجريبي نص تجريبي نص تجريبي نص تجريبي نص تجريبي نص تجريبي نص تجريبي نص تجريبي نص تجريبي نص
+            تجريبي نص تجريبي نص تجريبي نص تجريبي
+          </p>
+        </a>
+      </div>
+      <a href="services.html" class="more-btn wow fadeInUp" data-wow-delay="0.4s">
+        المزيد
+      </a>
+    </div>
+  </section>
+  <!-- End services -->
+
+  <!-- Start Contact -->
+  <section class="home-contact-section">
+    <div class="container">
+      <h2 class="home-contact-title wow fadeInDown">
+        تبحث عن أفضل وكالة رقمية وحلول تسويقية
+      </h2>
+      <a href="contact.html" class="home-contact-anchor wow fadeInDown" data-wow-delay="0.2s">
+        إتصل بنا
+      </a>
+    </div>
+  </section>
+  <!-- End Contact -->
+
+  <!-- Start Packages -->
+  <section class="packages-section">
+    <div class="section-head">
+      <span class="wow fadeInDown">باقات الأسعار</span>
+      <h3 class="wow fadeInDown" data-wow-delay="0.2s">
+        خطتك , إختيارك
+      </h3>
+    </div>
+    <div class="container">
+      <div class="packages-blocks">
+        <div class="packages-block wow fadeInUp">
+          <div class="pack-body">
+            <h4 class="pack-title">
+              الباقة الأساسية
+            </h4>
+            <strong class="pack-price">
+              1500 <span>جنيه</span>
+            </strong>
+            <ul class="pack-feats list-unstyled">
+              <li>إدارة صفحة سوشيال ميديا</li>
+              <li>إنشاء خطة شهرية</li>
+              <li>تصميم غلاف وبروفايل</li>
+              <li>10 بوستات شهريا</li>
+              <li>10 تصميمات إحترافية</li>
+              <li>كتابة محتوى إحترافي</li>
+              <li>إعلان ممول لمدة إسبوع</li>
+            </ul>
+          </div>
+          <a href="#!" class="pack-order">
+            إطلب الآن
+          </a>
+        </div>
+        <div class="packages-block wow fadeInUp" data-wow-delay="0.4s">
+          <div class="pack-body">
+            <h4 class="pack-title">
+              الباقة البريميوم
+            </h4>
+            <strong class="pack-price">
+              3500 <span>جنيه</span>
+            </strong>
+            <ul class="pack-feats list-unstyled">
+              <li>إنشاء هوية كاملة</li>
+              <li>إدارة صفحة سوشيال ميديا</li>
+              <li>إنشاء خطة شهرية</li>
+              <li>تصميم غلاف وبروفايل</li>
+              <li>15 بوستات شهريا</li>
+              <li>15 تصميمات إحترافية</li>
+              <li>كتابة محتوى إحترافي</li>
+              <li>إعلان ممول لمدة 15 يوم</li>
+            </ul>
+          </div>
+          <a href="#!" class="pack-order">
+            إطلب الآن
+          </a>
+        </div>
+        <div class="packages-block wow fadeInUp">
+          <div class="pack-body">
+            <h4 class="pack-title">
+              الباقة البلس
+            </h4>
+            <strong class="pack-price">
+              2000 <span>جنيه</span>
+            </strong>
+            <ul class="pack-feats list-unstyled">
+              <li>إدارة صفحة سوشيال ميديا</li>
+              <li>إنشاء خطة شهرية</li>
+              <li>تصميم غلاف وبروفايل</li>
+              <li>12 بوستات شهريا</li>
+              <li>12 تصميمات إحترافية</li>
+              <li>كتابة محتوى إحترافي</li>
+              <li>إعلان ممول لمدة 10 أيام</li>
+            </ul>
+          </div>
+          <a href="#!" class="pack-order">
+            إطلب الآن
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- End Packages -->
+
+  <!-- Start Works -->
+  <section class="works-section">
+    <div class="section-head">
+      <span class="wow fadeInDown">أعمالنا</span>
+      <h3 class="wow fadeInDown" data-wow-delay="0.2s">
+        إختر شاهد أفضل التصميمات
+        <br>
+        من خدماتنا في مكتبة أعمالنا الخاصه
+      </h3>
+    </div>
+    <div class="container">
+      <div class="filter-links">
+        <a role="button" class="filter-link active wow zoomIn" data-filter-link="all">
+          الكل
+        </a>
+        <a role="button" class="filter-link wow zoomIn" data-wow-delay="0.1s" data-filter-link="cat1">
+          سوشيال ميديا
+        </a>
+        <a role="button" class="filter-link wow zoomIn" data-wow-delay="0.2s" data-filter-link="cat2">
+          الهوية
+        </a>
+        <a role="button" class="filter-link wow zoomIn" data-wow-delay="0.3s" data-filter-link="cat3">
+          المواقع
+        </a>
+      </div>
+      <div class="work-blocks">
+        <div class="work-block wow fadeInUp" data-filter="cat1">
+          <a href="#!">
+            <img src="images/work/01.jpg" class="img-fluid">
+          </a>
+        </div>
+        <div class="work-block wow fadeInUp" data-wow-delay="0.2s" data-filter="cat2">
+          <a href="#!">
+            <img src="images/work/02.jpg" class="img-fluid">
+          </a>
+        </div>
+        <div class="work-block wow fadeInUp" data-wow-delay="0.4s" data-filter="cat3">
+          <a href="#!">
+            <img src="images/work/03.jpg" class="img-fluid">
+          </a>
+        </div>
+        <div class="work-block wow fadeInDowm" data-filter="cat3">
+          <a href="#!">
+            <img src="images/work/04.jpg" class="img-fluid">
+          </a>
+        </div>
+        <div class="work-block wow fadeInDowm" data-wow-delay="0.2s" data-filter="cat2">
+          <a href="#!">
+            <img src="images/work/05.jpg" class="img-fluid">
+          </a>
+        </div>
+        <div class="work-block wow fadeInDowm" data-wow-delay="0.4s" data-filter="cat1">
+          <a href="#!">
+            <img src="images/work/06.jpg" class="img-fluid">
+          </a>
+        </div>
+      </div>
+      <a href="portfolio.html" class="more-work class="more-btn wow fadeInUp" data-wow-delay="0.4s">
+        المزيد
+      </a>
+    </div>
+  </section>
+  <!-- End Works -->
+
+  <!-- Start Testmonials -->
+  <section class="testmonials-section">
+    <div class="testmonials-head">
+      <h2 class="wow fadeInDown">
+        أراءعملائنا
+      </h2>
+      <p class="wow fadeInDown" data-wow-delay="0.2s">
+        أراء عملائنا هو شيء نفتخر به ونعتز به كثيرا
+        <br>
+        ودائما ما نحاول التطور لزيادة ثقة عملائنا بنا
+      </p>
+    </div>
+    <div class="container">
+      <div class="testmonials-slider">
+        <div class="swiper-container">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <div class="testmonials-item wow zoomIn">
+                <div class="testmonial-text">
+                  نص تجريبي نص تجريبي نص تجريبي نص تجريبي نص تجريبي نص تجريبي نص تجريبي نص تجريبي نص تجريبي نص تجريبي نص
+                  تجريبي نص تجريبي نص تجريبي نص تجريبي
+                </div>
+                <div class="testmonial-user">
+                  <div class="user-img">
+                    <img src="images/user.jpg" class="img-fluid">
+                  </div>
+                  <div class="user-text">
+                    <h6 class="user-name">
+                      اسم المستخدم
+                    </h6>
+                    <span>
+                      نص تجريبي
+                    </span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="testmonials-item wow zoomIn" data-wow-delay="0.2s">
+                <div class="testmonial-text">
+                  نص تجريبي نص تجريبي نص تجريبي نص تجريبي نص تجريبي نص تجريبي نص تجريبي نص تجريبي نص تجريبي نص تجريبي نص
+                  تجريبي نص تجريبي نص تجريبي نص تجريبي
+                </div>
+                <div class="testmonial-user">
+                  <div class="user-img">
+                    <img src="images/user.jpg" class="img-fluid">
+                  </div>
+                  <div class="user-text">
+                    <h6 class="user-name">
+                      اسم المستخدم
+                    </h6>
+                    <span>
+                      نص تجريبي
+                    </span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="testmonials-item wow zoomIn" data-wow-delay="0.4s">
+                <div class="testmonial-text">
+                  نص تجريبي نص تجريبي نص تجريبي نص تجريبي نص تجريبي نص تجريبي نص تجريبي نص تجريبي نص تجريبي نص تجريبي نص
+                  تجريبي نص تجريبي نص تجريبي نص تجريبي
+                </div>
+                <div class="testmonial-user">
+                  <div class="user-img">
+                    <img src="images/user.jpg" class="img-fluid">
+                  </div>
+                  <div class="user-text">
+                    <h6 class="user-name">
+                      اسم المستخدم
+                    </h6>
+                    <span>
+                      نص تجريبي
+                    </span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="testmonials-item">
+                <div class="testmonial-text">
+                  نص تجريبي نص تجريبي نص تجريبي نص تجريبي نص تجريبي نص تجريبي نص تجريبي نص تجريبي نص تجريبي نص تجريبي نص
+                  تجريبي نص تجريبي نص تجريبي نص تجريبي
+                </div>
+                <div class="testmonial-user">
+                  <div class="user-img">
+                    <img src="images/user.jpg" class="img-fluid">
+                  </div>
+                  <div class="user-text">
+                    <h6 class="user-name">
+                      اسم المستخدم
+                    </h6>
+                    <span>
+                      نص تجريبي
+                    </span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="swiper-pagination"></div>
+      </div>
+    </div>
+    <div class="parteners-cont">
+      <h3 class="parts-title wow fadeInDown">
+        شركاء النجاح
+      </h3>
+      <div class="parteners">
+        <div class="parteners-slider">
+          <div class="swiper-container">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <a href="#!" class="partener">
+                  <img src="images/parteners/01.jpg" class="img-fluid">
+                </a>
+              </div>
+              <div class="swiper-slide">
+                <a href="#!" class="partener">
+                  <img src="images/parteners/02.jpg" class="img-fluid">
+                </a>
+              </div>
+              <div class="swiper-slide">
+                <a href="#!" class="partener">
+                  <img src="images/parteners/03.jpg" class="img-fluid">
+                </a>
+              </div>
+              <div class="swiper-slide">
+                <a href="#!" class="partener">
+                  <img src="images/parteners/04.jpg" class="img-fluid">
+                </a>
+              </div>
+              <div class="swiper-slide">
+                <a href="#!" class="partener">
+                  <img src="images/parteners/05.jpg" class="img-fluid">
+                </a>
+              </div>
+              <div class="swiper-slide">
+                <a href="#!" class="partener">
+                  <img src="images/parteners/06.jpg" class="img-fluid">
+                </a>
+              </div>
+              <div class="swiper-slide">
+                <a href="#!" class="partener">
+                  <img src="images/parteners/03.jpg" class="img-fluid">
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <div class="swiper-btn-next swiper-btn">
+            <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="30px"
+              height="32px">
+              <path fill-rule="evenodd"
+                d="M30.000,-0.000 L13.769,15.999 L30.000,32.000 L16.232,32.000 L-0.000,15.999 L16.232,-0.000 L30.000,-0.000 Z" />
+            </svg>
+          </div>
+          <div class="swiper-btn-prev swiper-btn">
+            <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="30px"
+              height="32px">
+              <path fill-rule="evenodd"
+                d="M-0.000,32.000 L16.231,16.000 L-0.000,-0.000 L13.768,-0.000 L30.000,16.000 L13.768,32.000 L-0.000,32.000 Z" />
+            </svg>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- End Testmonials -->
+
+  <!-- Start Blog -->
+  <section class="blog-section">
+    <div class="section-head">
+      <span class="wow fadeInDown">جديد المدونة</span>
+      <h3 class="wow fadeInDown" data-wow-delay="0.2s">
+        أخر أخبارنا والأخبار التقنية
+      </h3>
+      <p class="wow fadeInDown" data-wow-delay="0.4s">
+        هذه الأخبار الخاصه بنا تعرض كل ماهو جديد من المقالات والعروض الحصرية
+        <br>
+        والأخبار التقنية حول العالم وخاصه العالم العربي
+      </p>
+    </div>
+    <div class="container">
+      <div class="blog-slider">
+        <div class="swiper-container">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <div class="blog-item wow zoomIn" data-wow-delay="0.4s">
+                <div class="blog-item-img-container">
+                  <a href="#!" class="blog-item-img">
+                    <!-- <img src="images/work/02.jpg"> -->
+                  </a>
+                </div>
+                <div class="blog-item-text-container">
+                  <h5 class="blog-item-name-container">
+                    <a href="#!" class="blog-item-name">
+                      عنوان المقال
+                    </a>
+                  </h5>
+                  <p class="blog-item-p">
+                    نص تجريبي نص تجريبي نص تجريبي
+                    نص تجريبي نص تجريبي نص تجريبي
+                    نص تجريبي نص تجريبي نص تجريبي
+                  </p>
+                  <a href="#!" class="blog-item-more">
+                    المزيد
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="blog-item wow zoomIn" data-wow-delay="0.2s">
+                <div class="blog-item-img-container">
+                  <a href="#!" class="blog-item-img">
+                    <!-- <img src="images/work/02.jpg"> -->
+                  </a>
+                </div>
+                <div class="blog-item-text-container">
+                  <h5 class="blog-item-name-container">
+                    <a href="#!" class="blog-item-name">
+                      عنوان المقال
+                    </a>
+                  </h5>
+                  <p class="blog-item-p">
+                    نص تجريبي نص تجريبي نص تجريبي
+                    نص تجريبي نص تجريبي نص تجريبي
+                    نص تجريبي نص تجريبي نص تجريبي
+                  </p>
+                  <a href="#!" class="blog-item-more">
+                    المزيد
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="blog-item wow zoomIn">
+                <div class="blog-item-img-container">
+                  <a href="#!" class="blog-item-img">
+                    <!-- <img src="images/work/02.jpg"> -->
+                  </a>
+                </div>
+                <div class="blog-item-text-container">
+                  <h5 class="blog-item-name-container">
+                    <a href="#!" class="blog-item-name">
+                      عنوان المقال
+                    </a>
+                  </h5>
+                  <p class="blog-item-p">
+                    نص تجريبي نص تجريبي نص تجريبي
+                    نص تجريبي نص تجريبي نص تجريبي
+                    نص تجريبي نص تجريبي نص تجريبي
+                  </p>
+                  <a href="#!" class="blog-item-more">
+                    المزيد
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="blog-item">
+                <div class="blog-item-img-container">
+                  <a href="#!" class="blog-item-img">
+                    <!-- <img src="images/work/02.jpg"> -->
+                  </a>
+                </div>
+                <div class="blog-item-text-container">
+                  <h5 class="blog-item-name-container">
+                    <a href="#!" class="blog-item-name">
+                      عنوان المقال
+                    </a>
+                  </h5>
+                  <p class="blog-item-p">
+                    نص تجريبي نص تجريبي نص تجريبي
+                    نص تجريبي نص تجريبي نص تجريبي
+                    نص تجريبي نص تجريبي نص تجريبي
+                  </p>
+                  <a href="#!" class="blog-item-more">
+                    المزيد
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="swiper-pagination"></div>
+      </div>
+
+      <a href="#!" class="more-blog class="more-btn wow fadeInUp" data-wow-delay="0.4s">
+        زيارة المدونة
+      </a>
+    </div>
+  </section>
+  <!-- End Blog -->
+
+  <!-- Start Footer -->
+  <footer>
+    <div class="container">
+      <ul class="footer-ul list-unstyled">
+        <li>
+          <a href="index.html" class="active">
+            الرئيسية
+          </a>
+        </li>
+        <li>
+          <a href="about.html">
+            من نحن
+          </a>
+        </li>
+        <li>
+          <a href="services.html">
+            الخدمات
+          </a>
+        </li>
+        <li>
+          <a href="portfolio.html">
+            أعمالنا
+          </a>
+        </li>
+        <li>
+          <a href="#!">
+            باقات الأسعار
+          </a>
+        </li>
+        <li>
+          <a href="contact.html">
+            إتصل بنا
+          </a>
+        </li>
+      </ul>
+      <div class="footer">
+        <div class="right-footer">
+          <h2 class="footer-title-stroke">
+            نجاحك
+            هـــــــــو
+            هدفنـا
+            <span class="footer-title">
+              نجاحك
+              هـــــــــو
+              هدفنـا
+            </span>
+          </h2>
+          <img src="images/footer/rocket.png" class="rocket-img wow fadeInRightBig">
+        </div>
+        <div class="contact-infos">
+          <div class="contact-info">
+            العنوان :
+          </div>
+          <div class="contact-info">
+            رقم التليفون
+          </div>
+          <div class="contact-info">
+            الإيميل :
+          </div>
+        </div>
+        <div class="left-footer">
+          <div class="footer-logo">
+            <img src="images/logo.png" class="img-fluid">
+          </div>
+          <div class="footer-socials">
+            <a href="#!" class="footer-social">
+              <i class="fab fa-facebook-f"></i>
+            </a>
+            <a href="#!" class="footer-social">
+              <i class="fab fa-instagram"></i>
+            </a>
+            <a href="#!" class="footer-social">
+              <i class="fab fa-twitter"></i>
+            </a>
+          </div>
+        </div>
+        <img src="images/footer/triangle.png" class="footer-tri">
+      </div>
+    </div>
+  </footer>
+  <!-- End Footer -->
   <script src="js/jquery.min.js"></script>
   <script src="js/popper.min.js"></script>
   <script src="js/bootstrap.min.js"></script>
   <script src="js/swiper.min.js"></script>
   <script src="js/wow.min.js"></script>
+  <script src="js/jquery.fancybox.min.js"></script>
   <script src="js/main.js"></script>
 </body>
 
