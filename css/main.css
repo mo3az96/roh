@@ -1624,19 +1624,8 @@ footer {
 
 @media (max-width: 1199px) {
   footer {
-    background-color: transparent;
-    background-position: center;
-  }
-  footer::after {
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    height: 50%;
+    background-image: none;
     background-color: #e3174f;
-    content: "";
-    display: block;
-    z-index: -1;
   }
 }
 
