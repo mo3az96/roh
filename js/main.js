@@ -86,4 +86,24 @@ $(document).ready(function () {
         $(".left-div").slideToggle("400")
         $("body").toggleClass("overflow")
     });
+
+    if ($('.states-grid').length) {
+        var a = 0;
+        $(window).scroll(function () {
+            if (a === 0 && $(this).scrollTop() >= ($(".states-grid").offset().top) - 700) {
+                $('.state-number span').each(function () {
+                    $(this).prop('Counter', 0).animate({
+                        Counter: $(this).text()
+                    }, {
+                        duration: 1500,
+                        easing: 'swing',
+                        step: function (now) {
+                            $(this).text(Math.ceil(now));
+                        }
+                    });
+                });
+                a = 1
+            }
+        });
+    }
 });
