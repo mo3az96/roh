@@ -1365,104 +1365,6 @@ main .main-shape {
   }
 }
 
-.works-section {
-  padding: 90px 0 120px;
-  background-color: #f4f4f6;
-}
-
-@media (max-width: 991px) {
-  .works-section {
-    padding: 70px 0;
-  }
-}
-
-.work-blocks {
-  display: -ms-grid;
-  display: grid;
-  -ms-grid-columns: 1fr 1fr 1fr;
-      grid-template-columns: 1fr 1fr 1fr;
-  gap: 35px 33px;
-}
-
-@media (max-width: 1199px) {
-  .work-blocks {
-    gap: 20px 15px;
-  }
-}
-
-@media (max-width: 991px) {
-  .work-blocks {
-    -ms-grid-columns: 1fr 1fr;
-        grid-template-columns: 1fr 1fr;
-  }
-}
-
-.work-block {
-  border-radius: 15px;
-  overflow: hidden;
-  padding-bottom: 94.1176470588%;
-  position: relative;
-  width: 100%;
-}
-
-.work-block a {
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  display: block;
-}
-
-.work-block a img {
-  width: 100%;
-  height: 100%;
-  -o-object-fit: cover;
-     object-fit: cover;
-  -webkit-transition: all 0.3s ease-in-out;
-  transition: all 0.3s ease-in-out;
-}
-
-.work-block a:hover img, .work-block a:focus img {
-  -webkit-transform: scale(1.1) rotate(5deg);
-          transform: scale(1.1) rotate(5deg);
-}
-
-.more-work {
-  border-radius: 16px;
-  width: 154px;
-  height: 50px;
-  line-height: 50px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  background-color: #e3174f;
-  color: #fff;
-  font-size: 19px;
-  font-weight: 700;
-  margin: 55px auto 0;
-  -webkit-transition: all 0.3s ease-in-out;
-  transition: all 0.3s ease-in-out;
-}
-
-.more-work:hover, .more-work:focus {
-  background-color: #ffb005;
-  color: #fff;
-  text-decoration: none;
-}
-
-@media (max-width: 991px) {
-  .more-work {
-    margin-top: 30px;
-  }
-}
-
 .testmonials-section {
   background-color: #e3174f;
   background-image: radial-gradient(circle, rgba(255, 255, 255, 0.5) 0%, #e3174f 100%);
@@ -1990,6 +1892,115 @@ main .main-shape {
 
 .state-item .state-number {
   font-size: 24px;
+}
+
+.works-section {
+  padding: 90px 0 120px;
+  background-color: #f4f4f6;
+}
+
+@media (max-width: 991px) {
+  .works-section {
+    padding: 70px 0;
+  }
+}
+
+.works-section.works-page {
+  background-color: #fff;
+  padding-bottom: 245px;
+}
+
+@media (max-width: 991px) {
+  .works-section.works-page {
+    padding: 70px 0;
+  }
+}
+
+.work-blocks {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr 1fr;
+      grid-template-columns: 1fr 1fr 1fr;
+  gap: 35px 33px;
+}
+
+@media (max-width: 1199px) {
+  .work-blocks {
+    gap: 20px 15px;
+  }
+}
+
+@media (max-width: 991px) {
+  .work-blocks {
+    -ms-grid-columns: 1fr 1fr;
+        grid-template-columns: 1fr 1fr;
+  }
+}
+
+.work-block {
+  border-radius: 15px;
+  overflow: hidden;
+  padding-bottom: 94.1176470588%;
+  position: relative;
+  width: 100%;
+}
+
+.work-block a {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: block;
+}
+
+.work-block a img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
+.work-block a:hover img, .work-block a:focus img {
+  -webkit-transform: scale(1.1) rotate(5deg);
+          transform: scale(1.1) rotate(5deg);
+}
+
+.more-work {
+  border-radius: 16px;
+  width: 154px;
+  height: 50px;
+  line-height: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background-color: #e3174f;
+  color: #fff;
+  font-size: 19px;
+  font-weight: 700;
+  margin: 55px auto 0;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
+.more-work:hover, .more-work:focus {
+  background-color: #ffb005;
+  color: #fff;
+  text-decoration: none;
+}
+
+@media (max-width: 991px) {
+  .more-work {
+    margin-top: 30px;
+  }
 }
 
 footer {
