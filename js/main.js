@@ -106,4 +106,21 @@ $(document).ready(function () {
             }
         });
     }
+
+    if ($('.charts-flex').length) {
+        var a = 0;
+        $(window).scroll(function () {
+            if (a === 0 && $(this).scrollTop() >= ($(".charts-flex").offset().top) - 700) {
+                $('.chart').easyPieChart({
+                    size: 140,
+                    barColor: "#ff811b",
+                    scaleLength: 0,
+                    lineWidth: 15,
+                    trackColor: "#fff",
+                    lineCap: "circle",
+                    animate: 2000,
+                });
+            }
+        });
+    }
 });
