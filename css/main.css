@@ -2003,6 +2003,226 @@ main .main-shape {
   }
 }
 
+.contact-section {
+  padding-top: 115px;
+}
+
+@media (max-width: 991px) {
+  .contact-section {
+    padding-top: 70px;
+  }
+}
+
+.contact-title {
+  text-align: center;
+  font-size: 29px;
+  color: #1a1b1e;
+  font-weight: bold;
+  line-height: 1.2;
+  margin: 0;
+}
+
+@media (max-width: 991px) {
+  .contact-title {
+    font-size: 26px;
+  }
+}
+
+.contact-form {
+  margin-top: 95px;
+}
+
+@media (max-width: 991px) {
+  .contact-form {
+    margin-top: 70px;
+  }
+}
+
+.contact-form .form-line {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr;
+      grid-template-columns: 1fr 1fr;
+  gap: 30px;
+}
+
+@media (max-width: 767px) {
+  .contact-form .form-line {
+    -ms-grid-columns: 1fr;
+        grid-template-columns: 1fr;
+    gap: 0;
+  }
+}
+
+.contact-form .form-group {
+  margin-bottom: 20px;
+}
+
+.contact-form .form-control {
+  height: 50px;
+  border-radius: 50px;
+  border: 1px solid #e6e6e6;
+  outline: none !important;
+  -webkit-box-shadow: none !important;
+          box-shadow: none !important;
+  padding: 0 20px;
+  font-size: 16px;
+  color: #2e2e2e;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
+.contact-form .form-control::-webkit-input-placeholder {
+  color: #8a8a8a;
+}
+
+.contact-form .form-control:-ms-input-placeholder {
+  color: #8a8a8a;
+}
+
+.contact-form .form-control::-ms-input-placeholder {
+  color: #8a8a8a;
+}
+
+.contact-form .form-control::placeholder {
+  color: #8a8a8a;
+}
+
+.contact-form .form-control:focus {
+  border-color: #e3174f;
+}
+
+.contact-form .selects-line {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr 1fr;
+      grid-template-columns: 1fr 1fr 1fr;
+}
+
+.contact-form .selects-line ~ .selects-line {
+  margin-bottom: 20px;
+}
+
+@media (max-width: 767px) {
+  .contact-form .selects-line {
+    -ms-grid-columns: 1fr;
+        grid-template-columns: 1fr;
+  }
+}
+
+.contact-form label {
+  font-size: 16px;
+}
+
+.contact-form .mo-custom-select {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
+  max-width: 100%;
+  font-family: 'myriad';
+  font-size: 14px;
+  color: #616161;
+  cursor: pointer;
+}
+
+.contact-form .mo-custom-select .check-mark {
+  width: 13px;
+  height: 13px;
+  border-radius: 2px;
+  border: 1px solid #e6e6e6;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-size: 10px;
+  color: #e3174f;
+  margin-left: 5px;
+}
+
+.contact-form .mo-custom-select .check-mark i {
+  -webkit-transform: scale(0);
+          transform: scale(0);
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
+.contact-form .mo-custom-select input {
+  display: none;
+}
+
+.contact-form .mo-custom-select input:checked ~ .check-mark i {
+  visibility: visible;
+  -webkit-transform: scale(1) rotate(360deg);
+          transform: scale(1) rotate(360deg);
+}
+
+.contact-form textarea.form-control {
+  height: 120px;
+  resize: none;
+  padding: 15px 20px;
+  border-radius: 15px;
+}
+
+.contact-form .form-submit {
+  font-size: 29px;
+  color: #fff;
+  font-weight: 700;
+  border-radius: 31px;
+  width: 284px;
+  height: 63px;
+  background-color: #e3174f;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  border: none;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  margin: 40px auto 0;
+}
+
+.contact-form .form-submit:hover, .contact-form .form-submit:focus {
+  background-color: #ffb005;
+  color: #2e2e2e;
+}
+
+.contact-map {
+  height: 750px;
+  border: 10px solid #e3174f;
+  width: calc(100% - 30px);
+  margin: 315px 15px 0;
+}
+
+.contact-map #contact-map {
+  height: 100%;
+  width: 100%;
+}
+
+@media (max-width: 991px) {
+  .contact-map {
+    height: 400px;
+    margin-top: 70px;
+  }
+}
+
 footer {
   background-color: #f4f4f6;
   background-image: url(../images/footer/curve.png);
