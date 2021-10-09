@@ -1,5 +1,6 @@
 $(document).ready(function () {
     new WOW().init();
+    //////////** filters **//////////
     $('.filter-link').click(function () {
         var category = $(this).attr("data-filter-link");
         var thisBlocks = $(".work-block[data-filter='" + category + "']")
@@ -35,7 +36,8 @@ $(document).ready(function () {
             clickable: true,
         },
     });
-    //////////** blog slider **//////////
+
+    //////////** testmonials slider **//////////
     var blogwiper = new Swiper('.testmonials-slider .swiper-container', {
         loop: true,
         breakpoints: {
@@ -81,12 +83,14 @@ $(document).ready(function () {
         },
     });
 
+    //////////** menu button **//////////
     $('.menu-btn').click(function () {
         $(this).toggleClass("active");
         $(".left-div").slideToggle("400")
         $("body").toggleClass("overflow")
     });
 
+    //////////** states number **//////////
     if ($('.states-grid').length) {
         var a = 0;
         $(window).scroll(function () {
@@ -107,6 +111,7 @@ $(document).ready(function () {
         });
     }
 
+    //////////** charts **//////////
     if ($('.charts-flex').length) {
         var a = 0;
         $(window).scroll(function () {
