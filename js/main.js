@@ -1,5 +1,6 @@
 $(document).ready(function () {
     new WOW().init();
+    
     //////////** filters **//////////
     $('.filter-link').click(function () {
         var category = $(this).attr("data-filter-link");

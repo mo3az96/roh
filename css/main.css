@@ -891,7 +891,7 @@ main .main-shape {
 
 @media (max-width: 991px) {
   .banner-section .banner-desc {
-    margin: 0 auto 9px;
+    margin: 0 auto 20px;
   }
 }
 
